@@ -1,0 +1,32 @@
+1. What is Microfrontend?
+  - Microfrontend is an architectural design pattern for software architecture which focuses on the front end layer.
+  - Divide a monolithic app into multiple, smaller apps
+  - Each smaller app is responsible for a distinct feature of the product.
+  - It's breakdown a monolithic front-end application into smaller, loosely coupled and independently deployable components.
+
+2. Why use them?
+  - Multiple engineering teams can work in isolation
+  - Each smaller app is easier to understand and make changes to
+
+3. Monolithic vs Microfrontend
+  - Development and Deployment
+    -(Monolithic): Tightly Coupled
+    -(Microfrontend): Loosely Coupled - Independent development & deployment
+  - Scalability
+    -(Monolithic): Limited Scalability
+    -(Microfrontend): Targeted Scalability based on component needs
+  - Technology Flexibility
+  - Team Collaboration
+  - Release Cycle
+  - User experience
+  - Maintenance and Upgrades
+  - Security
+    -(Monolithic): Single Point of failure
+    -(Microfrontend): Improved security & isolation between components
+
+4. Implementation (Orchestration or Arrangement) Strategies:
+  - Composition at Build Time
+  - Composition at Run Time
+  - Communication and Data Sharing Among Micro frontends
+  - Routing and Navigation Approach
+  - State Management Considerations
