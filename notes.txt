@@ -26,7 +26,7 @@
 
 4. Implementation (Orchestration or Arrangement or Integration) Strategies:
   - Composition at Build Time (Compile Time Integration)
-  - Composition at Run Time (Client Side Integration)
+  - Composition at Run Time (Client Side Integration) - Webpack Module Federation
   - Composition at Server
   - Communication and Data Sharing Among Micro frontends
   - Routing and Navigation Approach
